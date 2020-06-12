@@ -1,0 +1,133 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: #FBFBFB;
+    height: 560px;
+}
+.menu{
+    width: 72.5%;
+    margin: auto;
+    display: flex;
+    padding-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    width: 20%;
+}
+.rightContent{
+    display: flex;
+    margin-left: 40%;
+    width: 40%;
+}
+.nav li{
+    font-size: .9em;
+}
+.nav a{
+    margin-left: 5%;
+}
+.nav a:hover{
+    color: #d73572;
+    border-bottom: 1px solid #d73572;
+}
+.rightContent h3{
+    margin-top: 3%;
+}
+.rightContent button{
+    margin-left: 5%;
+    width: 45%;
+    height: 45px;
+    border: 1px solid  #d73572;
+    color:  #d73572;
+    background-color: inherit;
+}
+.aboutMe{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.personalPhoto{
+    width: 480px;
+    height: 500px;
+    position: relative;
+    left: 25%;
+}
+.aboutMe .name{
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.aboutMe .name h1{
+    margin-bottom: -5%;
+    font-size: 5em;
+}
+.aboutMe .name h3{
+    color: grey;
+}
+
+.aboutMe .name button{
+    border: none;
+    background-color: #db4933;
+    color: white;
+    width: 200px;
+    height: 38px;
+}
+
+
+/* today  */
+.section{
+    width: 100%;
+    padding-top: 4%;
+    margin-bottom: 3%;
+}
+.section h3{
+    text-align: center;
+    font-size: 3em;
+}
+.cards{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cards .card{
+    text-align: center;
+}
+.section button{
+    margin-top: 5%;
+    width: 14%;
+    margin-left: 43%;
+    border: none;
+    background-color: #db4933;
+    height: 45px;
+    font-size: 1.1em;
+    color: white;
+    line-height: 45px;
+    cursor: pointer;
+}
+.portfolio{
+    background-color:  #FBFBFB ;
+}
+.profile img{
+    width: 270px;
+}
+.bro{
+    width: auto;
+    left: 50%;
+}
+.bro{
+    font-size: 70px;
+    background-color: darkred;
+    text-align: center;
+}
+.ky{
+    text-align: center;
+}
